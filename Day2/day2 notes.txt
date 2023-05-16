@@ -1,0 +1,65 @@
+** Prompt - keyword is used to get the input from the user
+   for that there need to be install the (npn install prompt - sync)
+**STRING:
+
+string represents a sequence of characters.
+strings can be created using two ways
+1.By string literal
+2.By string objects
+
+STRING LITERAL:
+string literal is created using double quotes
+syntax:
+var stringname = "stringvalue"
+STRING OBJECT:
+string object uses new keyword to create new string
+syntax:
+var stringname = new String("stringvalue");
+
+**STRING METHODS:
+charAt()
+charCodeAt()
+concat()
+indexOf()
+search()
+match()
+replace()
+substr()
+substring()
+toLowerCase()
+toLocaleLowerCase()
+toLocaleUpperCase()
+toUpperCase()
+toString()
+valueOf()
+split()
+trim()
+
+---split("").sort().join("");==sorts the string and arrange in alphabetical order.
+
+**FUNCTION:
+Functions are used to perform operations.Javascript functions are reused many times in the code.
+syntax:
+function functionName([arg1,arg2,....,argN]){
+//code to be executed
+}
+
+**FUNCTION METHODS:
+apply()-it is used to call a function this value and a single array of arguments
+bind()-create new function
+call()-it is used to call afunction contains this value and an argument list
+toString()-returns result in the form of string
+
+**FUNCTION OBJECTS:
+var functionName = new Function("arg1","arg2","return condition");
+
+**ARROW FUNCTION:
+let add = function(x,y){
+    return x+y;
+}
+console.log(add(2,4));
+--
+let add = (x,y) => x+y;
+console.log(add(2,4));
+--
+let add = (x,y) =>{ return x+y; };
